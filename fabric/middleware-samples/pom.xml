@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.bt</groupId>
+	<artifactId>middleware-samples</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>middleware-samples</name>
+	<description>a set of samples for middleware, kony, kony fabric, integration and others</description>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+	<dependencies>
+		<dependency>
+			<groupId>com.konylabs.middleware</groupId>
+			<artifactId>middleware-api</artifactId>
+			<version>8.3.0.5</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/8_3_GA/middleware-api-1.0.0.0.jar</systemPath>
+		</dependency>
+	</dependencies>
+</project>
