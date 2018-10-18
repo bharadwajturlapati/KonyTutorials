@@ -57,7 +57,7 @@ public class InvokeMockService implements JavaService2 {
 		ServiceRequest serviceRequest = request.getServicesManager().getRequestBuilder(operationData)
 				.withDCRRequest(request).withInputs(inputMap == null ? new HashMap<String, Object>() : inputMap)
 				.withHeaders(headerMap == null ? new HashMap<String, Object>() : headerMap)
-				.withSession(sessionMap).build();
+				.withSessionMap(sessionMap).build();
 		return serviceRequest;
 	}
 	
@@ -73,7 +73,7 @@ public class InvokeMockService implements JavaService2 {
 		ServiceRequest serviceRequest = request.getServicesManager().getRequestBuilder(operationData)
 				.withInputs(inputMap == null ? new HashMap<String, Object>() : inputMap)
 				.withHeaders(headerMap == null ? new HashMap<String, Object>() : headerMap)
-				.withSession(sessionMap).build();
+				.withSessionMap(sessionMap).build();
 		return serviceRequest;
 	}
 	

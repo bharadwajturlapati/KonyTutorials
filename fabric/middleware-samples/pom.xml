@@ -27,9 +27,9 @@
 		<dependency>
 			<groupId>com.konylabs.middleware</groupId>
 			<artifactId>middleware-api</artifactId>
-			<version>8.3.0.5</version>
+			<version>8.4.0.28</version>
 			<scope>system</scope>
-			<systemPath>${basedir}/lib/8_3_GA/middleware-api-1.0.0.0.jar</systemPath>
+			<systemPath>${basedir}/lib/8_3_GA/middleware-api-8.4.0.28.jar</systemPath>
 		</dependency>
 	</dependencies>
 </project>
